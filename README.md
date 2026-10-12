@@ -19,14 +19,13 @@ Then run `/mcp`, choose `capacitylab` and Authenticate.
 
 ## Codex CLI
 
-```sh
-codex mcp add capacitylab --url https://preprod-api.capacitylab.dev/mcp
-codex mcp login capacitylab
-npx skills add CapacityLove/agent-skills -a codex
-```
+The same plugin installs in Codex:
 
-Or install both as a Codex plugin: `codex plugin marketplace add CapacityLove/agent-skills`,
-`codex plugin add capacitylab@capacitylab`, then `codex mcp login capacitylab`.
+```sh
+codex plugin marketplace add CapacityLove/agent-skills
+codex plugin add capacitylab@capacitylab
+codex mcp login capacitylab
+```
 
 ## Other agents
 

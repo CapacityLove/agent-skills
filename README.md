@@ -25,6 +25,9 @@ codex mcp login capacitylab
 npx skills add CapacityLove/agent-skills -a codex
 ```
 
+Or install both as a Codex plugin: `codex plugin marketplace add CapacityLove/agent-skills`,
+`codex plugin add capacitylab@capacitylab`, then `codex mcp login capacitylab`.
+
 ## Other agents
 
 `npx skills add CapacityLove/agent-skills` installs the skills for any agent the

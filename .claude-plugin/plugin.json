@@ -1,0 +1,17 @@
+{
+  "author": {
+    "name": "CapacityLab",
+    "url": "https://capacitylab.dev"
+  },
+  "description": "Load test web services and HTTP APIs from your coding agent: the CapacityLab MCP server and skills for a free Smoke, finding capacity, and reading and comparing results.",
+  "displayName": "CapacityLab",
+  "homepage": "https://capacitylab.dev",
+  "keywords": [
+    "load-testing",
+    "performance",
+    "mcp"
+  ],
+  "license": "MIT",
+  "name": "capacitylab",
+  "repository": "https://github.com/CapacityLove/agent-skills"
+}

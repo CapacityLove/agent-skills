@@ -1,0 +1,16 @@
+{
+  "description": "Load test web services and HTTP APIs from your coding agent: the CapacityLab MCP server and skills for a free Smoke, finding capacity, and reading and comparing results.",
+  "name": "capacitylab",
+  "owner": {
+    "name": "CapacityLab",
+    "url": "https://capacitylab.dev"
+  },
+  "plugins": [
+    {
+      "category": "testing",
+      "description": "Load test web services and HTTP APIs from your coding agent: the CapacityLab MCP server and skills for a free Smoke, finding capacity, and reading and comparing results.",
+      "name": "capacitylab",
+      "source": "./"
+    }
+  ]
+}

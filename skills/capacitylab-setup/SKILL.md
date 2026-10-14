@@ -20,7 +20,7 @@ Hard rules:
 - If your client exposes MCP resources, `capacitylab://knowledge/workflows/first-run` is the server's detailed reference for this flow.
 
 Step 1 - Connection and account.
-Check that the `capacitylab.*` tools are available. If not, stop and tell me how to connect: Claude Code `claude mcp add --transport http capacitylab https://preprod-api.capacitylab.dev/mcp`, then `/mcp`, choose capacitylab, Authenticate; Codex CLI `codex mcp add capacitylab --url https://preprod-api.capacitylab.dev/mcp`, then `codex mcp login capacitylab`. I sign in or sign up at https://preprod.capacitylab.dev and approve the consent screen.
+Check that the `capacitylab.*` tools are available. If not, stop and tell me to open this deployment's AI agents page in CapacityLab Console and use the connection command it shows for my agent. I sign in or sign up there and approve the consent screen.
 Then call `capacitylab.system.status` (continue only if `execution.confirm.allowed` is true; otherwise explain its blockers), `capacitylab.accounts.balance.get`, `capacitylab.applications.list` and `capacitylab.targets.list`, and reuse what already exists instead of creating duplicates.
 
 Step 2 - One summary from the repository.

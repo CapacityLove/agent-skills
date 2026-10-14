@@ -2,7 +2,7 @@
   "mcpServers": {
     "capacitylab": {
       "type": "http",
-      "url": "https://preprod-api.capacitylab.dev/mcp"
+      "url": "https://api.capacitylab.dev/mcp"
     }
   }
 }

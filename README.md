@@ -31,7 +31,7 @@ codex mcp login capacitylab
 
 `npx skills add CapacityLove/agent-skills` installs the skills for any agent the
 [skills CLI](https://github.com/vercel-labs/skills) supports; connect the MCP server
-`https://preprod-api.capacitylab.dev/mcp` as your agent documents.
+`https://api.capacitylab.dev/mcp` as your agent documents.
 
 ## Skills
 
